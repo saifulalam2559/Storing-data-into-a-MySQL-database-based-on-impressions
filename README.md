@@ -23,7 +23,7 @@ CREATE TABLE `impressions` (
 
 ```
 
-***PHP Script to Capture Impressions***
+## PHP Script to Capture Impressions
 
 1. **Connect to MySQL Database**
 
