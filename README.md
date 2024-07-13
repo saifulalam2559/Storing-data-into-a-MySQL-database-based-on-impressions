@@ -22,3 +22,26 @@ CREATE TABLE `impressions` (
 );
 
 ```
+
+# PHP Script to Capture Impressions
+
+1. **Connect to MySQL Database**
+
+Use PHP's MySQLi or PDO extension to connect to your MySQL database. Replace 'hostname', 'username', 'password', and 'database' with your actual database credentials.
+
+```
+<?php
+$hostname = 'localhost';
+$username = 'your_username';
+$password = 'your_password';
+$database = 'your_database';
+
+// Create connection
+$conn = new mysqli($hostname, $username, $password, $database);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+?>
+```
