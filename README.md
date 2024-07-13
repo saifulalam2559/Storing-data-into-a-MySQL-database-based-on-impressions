@@ -1,24 +1,14 @@
-# Query Results Based on URL Parameter
+# Storing Impression Data into MySQL Database Using PHP
 
-This repository demonstrates how to fetch results based on URL parameters using a Laravel application.
+This repository demonstrates how to store impression data into a MySQL database using PHP. The impression data includes the timestamp of the visit, the visitor's IP address, and the page URL.
 
-## Table of Contents
 
-- [Introduction](#introduction)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Controller Code](#controller-code)
-- [License](#license)
+## Database Setup
 
-## Introduction
+First, set up a MySQL database with a table to store the impression data.
 
-This project showcases a simple implementation of fetching query results based on URL parameters in a Laravel application. It is useful for scenarios where you need to filter data based on user inputs directly from the URL.
 
-## Installation
-
-To get started with this project, follow these steps:
-
-1. **Clone the repository:**
+ **Clone the repository:**
     ```bash
-    git clone https://github.com/saifulalam2559/query-results-based-on-URL-Parameter-.git
+    git clone https://github.com/saifulalam2559/query-results-based-on-URL-Parameter-.git](https://github.com/saifulalam2559/Storing-data-into-a-MySQL-database-based-on-impressions.git
     ```
