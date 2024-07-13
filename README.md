@@ -9,5 +9,5 @@ First, set up a MySQL database with a table to store the impression data.
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/saifulalam2559/query-results-based-on-URL-Parameter-.git
+    git clone https://github.com/saifulalam2559/Storing-data-into-a-MySQL-database-based-on-impressions.git
     ```
