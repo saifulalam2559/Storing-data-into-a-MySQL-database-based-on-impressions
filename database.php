@@ -1,0 +1,6 @@
+CREATE TABLE `impressions` (
+    `id` INT AUTO_INCREMENT PRIMARY KEY,
+    `timestamp` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    `ip_address` VARCHAR(50) NOT NULL,
+    `page_url` VARCHAR(255) NOT NULL
+);
